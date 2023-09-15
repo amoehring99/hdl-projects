@@ -5,8 +5,10 @@
 ### Verilog / SystemVerilog
 
 - [x] [icebreaker-workshop](https://github.com/icebreaker-fpga/icebreaker-workshop)
-- [ ] read book "RTL Modeling with SystemVerilog for Simulation and Synthesis" by Stuart Sutherland
-- [ ] read book "Constraining Designs for Synthesis and Timing Analysis" by Sridhar Gangadharan and Sanjay Churiwala
+- [ ] read book "RTL Modeling with SystemVerilog for Simulation and Synthesis"  
+      by Stuart Sutherland
+- [ ] read book "Constraining Designs for Synthesis and Timing Analysis"  
+      by Sridhar Gangadharan and Sanjay Churiwala
 - [ ] set up open source toolchain for synthesis and verification
 - [ ] implement driver for serial 7-segment display
   - driver IC is [TM1637](https://www.makerguides.com/wp-content/uploads/2019/08/TM1637-Datasheet.pdf)
