@@ -4,6 +4,8 @@
 
 ### Verilog / SystemVerilog
 
+#### Design
+
 - [x] [icebreaker-workshop](https://github.com/icebreaker-fpga/icebreaker-workshop)
 - [ ] read book "RTL Modeling with SystemVerilog for Simulation and Synthesis"  
       by Stuart Sutherland
@@ -15,6 +17,11 @@
 - [ ] start a computer graphics project
 - [ ] implement 12 bit computer
   - [ ] read book "Prozessorentwurf mit Verilog HDL" by Dieter Wecker
+
+#### Verification
+- [ ] write testbench for serial 7-segment display driver
+- [ ] read book "SystemVerilog for verification"  
+     by Chris Spear
 
 ### VHDL
 
