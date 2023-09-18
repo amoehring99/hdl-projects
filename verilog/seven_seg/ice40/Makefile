@@ -1,6 +1,4 @@
-## Project F: Racing the Beam - iCEBreaker Makefile
 ## (C)2023 Will Green, open source hardware released under the MIT License
-## Learn more at https://projectf.io/posts/racing-the-beam/
 
 # configuration
 SHELL = /bin/sh
