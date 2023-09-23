@@ -5,7 +5,7 @@
 # Learn more at https://projectf.io/posts/verilog-lint-with-verilator/
 
 DIR=`dirname $0`
-LIB="${DIR}/../../lib"
+LIB="${DIR}/../lib"
 
 # Verilator Simulation
 # Lattice iCE40

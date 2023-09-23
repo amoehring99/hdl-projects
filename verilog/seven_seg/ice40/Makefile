@@ -7,8 +7,9 @@ FPGA_TYPE = up5k
 PCF = icebreaker.pcf
 
 # included modules
-PATH_LIB = ../../../lib
+PATH_LIB = ../../lib
 ADD_SRC += ${PATH_LIB}/seven_seg/seven_seg.sv
+ADD_SRC += ${PATH_LIB}/seven_seg/seven_seg_pkg.sv
 
 four_pin_seg: four_pin_seg.rpt four_pin_seg.bin
 seven_seg		: seven_seg.rpt seven_seg.bin
