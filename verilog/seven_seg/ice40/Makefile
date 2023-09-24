@@ -11,7 +11,7 @@ PATH_LIB = ../../lib
 ADD_SRC += ${PATH_LIB}/seven_seg/seven_seg.sv
 ADD_SRC += ${PATH_LIB}/seven_seg/seven_seg_pkg.sv
 
-four_pin_seg: four_pin_seg.rpt four_pin_seg.bin
+# four_pin_seg: four_pin_seg.rpt four_pin_seg.bin
 seven_seg		: seven_seg.rpt seven_seg.bin
 
 %.json: top_%.sv $(ADD_SRC)
@@ -26,7 +26,7 @@ seven_seg		: seven_seg.rpt seven_seg.bin
 %.bin: %.asc
 	icepack $< $(subst top_,,$@)
 
-all: four_pin_seg seven_seg
+all: seven_seg #four_pin_seg
 
 clean:
 	rm -f *.json *.asc *.rpt *.bin *yosys.log
